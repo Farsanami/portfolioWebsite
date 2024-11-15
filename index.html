@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- header section starts -->
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img class="logo" src="images/logo.jpeg">
+                <ul id="sidemenu">
+                    <i class="fa-solid fa-xmark fa" onclick="closemenu()"></i>
+                    <li><a href="#header"> Home</a></li>
+                    <li><a href="#about"> About</a></li>
+                    <li><a href="#services"> Services</a></li>
+                    <li><a href="#portfolio"> Portfolio</a></li>
+                    <li><a href="#contact"> Contact</a></li>
+                    
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>FullStack Developer</p>
+                <h1>Hi, I'm <span>Farsana M I</span><br> From India</h1>
+            </div>
+        </div>
+    </div>
+    <!-- header section Ends -->
+     <!-- about section starts -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/profile.jfif">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I’ve always been fascinated by technology, and I recently decided to turn that passion into a career in software development. I’m currently learning full-stack web development and focusing on both the front-end and back-end. My main goal is to build simple, functional applications that can help solve real-world problems.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li>
+                                <span>Frontend</span><br> HTML, CSS, JavaScript, React (beginner)
+                            </li>
+                            <li>
+                                <span>Backend</span><br>Node.js, Express (beginner)
+                            </li>
+                            <li>
+                                <span>Version Control</span><br>GitHub
+                            </li>
+                            <li>
+                                <span>Databases</span><br>MongoDB (beginner)
+                            </li>
+                        </ul>
+                    </div>
+                   
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li>
+                                <span>Manual Testing</span><br>Complete Website and Appication
+                            </li>
+                            <li>
+                                <span>Automation Testing</span><br>Selenium,Appium(Beginner)
+                            </li>
+                        </ul>
+                    </div>
+                   
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li>
+                                <span>MCA</span><br>Pursuing(Distance)
+                            </li>
+                            <li>
+                                <span>BCA</span><br>Calicut University
+                            </li>
+                            <li>
+                                <span>Plus Two</span><br>State Board of Kerala
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--about section ends -->
+    <!-- services starts -->
+     <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Simple Website Design</h2>
+                    <p>LI can help you bring your idea to life by creating a basic prototype or MVP (Minimum Viable Product) for your web app. I focus on building something functional and scalable with clean code, while making sure it's easy to maintain.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Design and Development</h2>
+                    <p>I offer front-end design and development services, ensuring that your app is not only functional but also intuitive and easy to use.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>Performance Optimization</h2>
+                    <p>I can optimize your website to improve load times, responsiveness, and user experience, making sure your site performs well across all devices.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+     </div>
+     <!-- services ends -->
+
+     <!-- portfolio starts -->
+      <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/w1.jfif" >
+                    <div class="layer">
+                        <h3>InstagramClone</h3>
+                        <p>As part of my journey to learn web development, I created a fully responsive clone of Instagram. This project allowed me to practice implementing modern web design principles while ensuring the layout adapts seamlessly to different screen sizes—from desktops to tablets and mobile devices.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/w2.jfif" >
+                    <div class="layer">
+                        <h3>Amazon Clone</h3>
+                        <p>I created a static clone of a popular website to practice my front-end development skills. This design focuses on recreating the look and feel of the original site using HTML and CSS. I worked on matching the layout, colors, typography, and overall style to achieve an accurate representation of the website.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/w3.jfif" >
+                    <div class="layer">
+                        <h3>Youtube Clone</h3>
+                        <p>I created a static clone of a popular website to practice my front-end development skills. This design focuses on recreating the look and feel of the original site using HTML and CSS. I worked on matching the layout, colors, typography, and overall style to achieve an accurate representation of the website.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                </div>
+                <a href="" class="btn">See more</a>
+            </div>
+        </div>
+      <!-- portfolio ends -->
+
+       <!-- Contact starts -->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p class="social-media"><a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox"><i class="fa-regular fa-paper-plane "></i>farsanaismail@gmail.com</a></p>
+                        <p><i class="fa-solid fa-square-phone"></i>+91 9847793798</p>
+                        <div class="social-media">
+                            <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                            
+                            <a href="https://www.linkedin.com/feed/"><i class="fa-brands fa-linkedin"></i></a>
+                            
+                        </div>
+                            <a href="D:\FARSANA\cv&details\FARSANA M I" download class="btn bttn">Download CV</a>
+
+                    </div>
+                    <div class="contact-right">
+                        <form>
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn bttn">Submit</button>                 
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright @ Farsana</p>
+        </div>
+        </div>
+         <!-- COntact ends -->
+
+    <!-- ---js--- -->
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+        
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link")
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab")
+            }
+            event.currentTarget.classList.add("active-link")
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+    </script>
+    <script>
+        var smenu=document.getElementById("sidemenu");
+        function openmenu(){
+            smenu.style.right="0";
+
+        }
+        function closemenu(){
+            smenu.style.right="-200px";
+
+        }
+
+    </script>
+</body>
+</html>
